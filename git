@@ -1,0 +1,12 @@
+On branch main
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.gitignore
+	backend/
+	frontend/
+	git
+	run-backend.sh
+	run-frontend.sh
+	setup.sh
+
+nothing added to commit but untracked files present (use "git add" to track)
