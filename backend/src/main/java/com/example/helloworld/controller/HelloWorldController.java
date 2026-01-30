@@ -14,7 +14,7 @@ public class HelloWorldController {
     @GetMapping("/hello")
     public Message getHelloMessage() {
         Message message = new Message();
-        message.setText("Hello World from Spring Boot!");
+        message.setText("Welcome to the Hello World from Spring Boot!");
         message.setTimestamp(LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss")));
         message.setVersion("1.0.0");
         return message;
